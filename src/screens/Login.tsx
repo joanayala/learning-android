@@ -27,9 +27,14 @@ function Login(){
                 <Text style={styles.btnLoginText}>Sign in</Text>
             </TouchableOpacity>
 
+            <TouchableOpacity style={styles.button2}>
+                <Text style={styles.btnLoginText}>Sign up</Text>
+            </TouchableOpacity>
+
             <TouchableOpacity style={styles.registerText}>
                 <Text style={styles.registerText}>
-                    I don't have an account <Text style={styles.registerLink}>Sign up</Text>
+                    I don't have an account 
+                    <Text style={styles.registerLink}>Sign up</Text>
                 </Text>
             </TouchableOpacity>
         </View>
@@ -60,6 +65,14 @@ const styles = StyleSheet.create({
     button: {
         width: "100%",
         backgroundColor: "#007BFF",
+        paddingVertical: 14,
+        borderRadius: 12,
+        alignItems: "center",
+        marginTop: 10
+    },
+    button2: {
+        width: "100%",
+        backgroundColor: "#ff0000ff",
         paddingVertical: 14,
         borderRadius: 12,
         alignItems: "center",
