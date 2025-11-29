@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Login from './src/screens/Login';
 import Register from './src/screens/Register';
 import Splash from './src/screens/Splash';
+import Main from './src/screens/Main';
 
 export default function App() {
 
@@ -11,5 +12,5 @@ export default function App() {
     return <Splash onFinish={() => setShowSplash(false)} />;
   }
 
-  return <Register />
+  return <Main />
 }
